@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#fff"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/ic_launcher_background"/>
+        <EditText
+            android:id="@+id/edi_cha"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint="女士卫衣"
+            android:text="手机"
+            android:singleLine="true"
+            android:layout_weight="7"/>
+        <Button
+            android:id="@+id/button_cha"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="搜索"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
